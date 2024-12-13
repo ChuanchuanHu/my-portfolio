@@ -57,7 +57,7 @@ function Contact() {
           aria-label="LinkedIn message link icon"
           target="_blank"
         >
-          <img src="\logo\linkedin.webp" alt="LinkedIn" />
+          <img src="logo\linkedin.webp" alt="LinkedIn" />
         </a>
       </div>
     </div>

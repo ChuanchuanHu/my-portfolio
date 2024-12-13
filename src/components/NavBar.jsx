@@ -10,7 +10,7 @@ function NavBar({ setCurrentPage }) {
 
       <ul className="navbar-list">
         <li onClick={() => setCurrentPage("Home")} className="navbar-item">
-          <img src="/logo/home.svg" alt="Home Icon" className="navbar-icon" />
+          <img src="logo/home.svg" alt="Home Icon" className="navbar-icon" />
           Home
         </li>
         <li
@@ -19,7 +19,7 @@ function NavBar({ setCurrentPage }) {
           aria-label="About page link"
         >
           <img
-            src="/logo/person.svg"
+            src="logo/person.svg"
             alt="Person Info Icon"
             className="navbar-icon"
           />
@@ -30,7 +30,7 @@ function NavBar({ setCurrentPage }) {
           className="navbar-item"
           aria-label="Portfolio page link"
         >
-          <img src="/logo/file.svg" alt="File Icon" className="navbar-icon" />
+          <img src="logo/file.svg" alt="File Icon" className="navbar-icon" />
           Portfolio
         </li>
         <li
@@ -39,7 +39,7 @@ function NavBar({ setCurrentPage }) {
           aria-label="Publication page link"
         >
           <img
-            src="/logo/article.svg"
+            src="logo/article.svg"
             alt="Article Icon"
             className="navbar-icon"
           />
@@ -51,7 +51,7 @@ function NavBar({ setCurrentPage }) {
           aria-label="Contact page link"
         >
           <img
-            src="/logo/contact.svg"
+            src="logo/contact.svg"
             alt="Contact Icon"
             className="navbar-icon"
           />

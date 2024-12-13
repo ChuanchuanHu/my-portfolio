@@ -27,7 +27,7 @@ function HomePage() {
 
         <div className="home-imageFrame">
           <img
-            src="/myself2.png"
+            src="myself2.png"
             alt="2D style profile img"
             className="home-image"
           />

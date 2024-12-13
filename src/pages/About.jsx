@@ -10,11 +10,11 @@ function About() {
         <h3>Education Info</h3>
         <ul>
           <li>
-            <img src="/logo/neu.svg" alt="Home Icon" className="navbar-icon" />
+            <img src="logo/neu.svg" alt="Home Icon" className="navbar-icon" />
             Northeastern University | MsC Information System
           </li>
           <li>
-            <img src="/logo/ucd.png" alt="Home Icon" className="navbar-icon" />
+            <img src="logo/ucd.png" alt="Home Icon" className="navbar-icon" />
             Universityu of California, Davis | Bs Electrical Engineering
           </li>
         </ul>

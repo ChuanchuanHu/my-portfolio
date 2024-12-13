@@ -13,9 +13,9 @@ function ThemeSwitcher() {
   return (
     <button onClick={toggleTheme} className="theme-switcher">
       {theme === "light" ? (
-        <img src="/logo/off.svg" alt="Switch to dark theme" />
+        <img src="logo/off.svg" alt="Switch to dark theme" />
       ) : (
-        <img src="/logo/on.svg" alt="Switch to dark theme" />
+        <img src="logo/on.svg" alt="Switch to dark theme" />
       )}
     </button>
   );

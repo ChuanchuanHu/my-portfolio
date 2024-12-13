@@ -6,7 +6,7 @@ function Portfolio() {
       <div className="portfolio-gallery">
         <div className="portfolio-card">
           <img
-            src="/project1.png"
+            src="project1.png"
             alt="A Java, JavaFX, and Azure Cloud project"
           />
           <h3>AeroPortal Airport Management System</h3>
@@ -24,7 +24,7 @@ function Portfolio() {
           </a>
         </div>
         <div className="portfolio-card">
-          <img src="/project2.png" alt="A PyQT and OpenCV project" />
+          <img src="project2.png" alt="A PyQT and OpenCV project" />
           <h3>Parking path planning tool</h3>
           <h4>A PyQT and OpenCV project</h4>
           <p>Generated parking path based on raw building map.</p>
@@ -40,7 +40,7 @@ function Portfolio() {
           </p>
         </div>
         <div className="portfolio-card">
-          <img src="/project3.png" alt="A Qt and C++ project" />
+          <img src="project3.png" alt="A Qt and C++ project" />
           <h3>Mine intelligence - fleet monitoring</h3>
           <h4>A Qt and C++ project</h4>
           <p>
@@ -59,7 +59,7 @@ function Portfolio() {
           </p>
         </div>
         <div className="portfolio-card">
-          <img src="/project4.png" alt="A Python project" />
+          <img src="project4.png" alt="A Python project" />
           <h3>Color Correction Module</h3>
           <h4>A Python project</h4>
           <p>
@@ -78,7 +78,7 @@ function Portfolio() {
           </p>
         </div>
         <div className="portfolio-card">
-          <img src="/project5.png" alt="A hardware project" />
+          <img src="project5.png" alt="A hardware project" />
           <h3>NATCAR</h3>
           <h4>A hardware project</h4>
           <p>
