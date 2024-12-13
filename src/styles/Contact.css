@@ -1,0 +1,80 @@
+.contact {
+  font-family: sans-serif;
+  max-width: 40rem;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contact h2 {
+  margin-top: 1rem;
+  color: rgb(194, 150, 255);
+  font-size: 2rem;
+  border-bottom: 2px solid rgb(194, 150, 255);
+  display: inline-block;
+}
+
+.contact-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.error {
+  color: red;
+}
+
+.notification {
+  color: green;
+}
+
+.contact-form button[type="submit"] {
+  background: rgb(194, 150, 255);
+  color: white;
+
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.1rem;
+  cursor: pointer;
+
+  transition: background 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background: rgb(194, 150, 255);
+}
+
+.linkedin-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+  .contact {
+    padding: 2rem 1rem;
+  }
+}

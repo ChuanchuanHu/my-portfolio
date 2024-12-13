@@ -1,0 +1,27 @@
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         2024/12/8     23:13                logo
+-a----         2024/12/7     16:12         177431 myarticle.png Belongs to myself.
+-a----         2024/12/7     21:45         462330 myself.png Generate with Flux Dev, cam be commercial used.
+-a----         2024/12/7     21:46         158823 myself2.png Generate with Flux Dev, cam be commercial used.
+-a----         2024/12/8     15:41         624864 project1.png Belongs to myself.
+-a----         2024/12/8     15:42         247871 project2.png Belongs to myself.
+-a----         2024/12/8     15:44         289551 project3.png Belongs to myself.
+-a----         2024/12/8     15:45         557330 project4.png Belongs to myself.
+-a----         2024/12/8     15:47        2026471 project5.png Belongs to myself.
+-a----         2024/12/4     23:39           1497 vite.svg  https://fonts.google.com/
+-a----         2024/12/7     16:03            374 article.svg https://fonts.google.com/
+-a----         2024/12/8     23:07            507 close.svg https://fonts.google.com/
+-a----         2024/12/7     16:04            636 contact.svg https://fonts.google.com/
+-a----         2024/12/8     23:13            514 donate.svg https://fonts.google.com/
+-a----         2024/12/7     16:01            366 file.svg https://fonts.google.com/
+-a----         2024/12/7     15:54            243 home.svg https://fonts.google.com/
+-a----         2024/12/8     15:01          10458 linkedin.webp Belongs to linkedin
+-a----         2024/12/7     23:04          35680 neu.svg Belongs to Northeastern University
+-a----         2024/12/7     17:01            403 off.svg https://fonts.google.com/
+-a----         2024/12/7     17:01            405 on.svg https://fonts.google.com/
+-a----         2024/12/7     15:59            548 person.svg https://fonts.google.com/
+-a----         2024/12/8     23:09            493 resume.svg https://fonts.google.com/
+-a----         2024/12/7     15:55            771 setting.svg https://fonts.google.com/
+-a----         2024/12/7     16:01            563 site_logo.svg Generate with Flux Dev, cam be commercial used.
+-a----         2024/12/7     23:01         366106 ucd.png Belongs to University of California Davis

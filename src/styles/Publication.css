@@ -1,0 +1,37 @@
+.Publication {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Publication h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgb(194, 150, 255);
+  display: inline-block;
+}
+
+.Publication h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.Publication p {
+  margin: 1.5rem 0 2rem;
+  line-height: 1.6;
+  color: black;
+}
+
+.Publication img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .Publication {
+    padding: 2rem 1rem;
+  }
+}

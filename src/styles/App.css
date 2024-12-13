@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1.6;
+  background-color: white;
+  color: gray;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(252, 249, 255);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  width: 15rem;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+body.light {
+  background-color: white;
+  color: gray;
+}
+
+body.dark main {
+  background-color: gray;
+  color: white;
+}
+
+.dark button {
+  background-color: none;
+}
+
+.dark button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+body.dark .home-subtitle {
+  color: rgb(211, 180, 255);
+}
+
+body.dark .home-heading {
+  color: rgb(211, 180, 255);
+}
+
+body.dark .about {
+  color: white;
+}
+
+body.dark .skill-badge {
+  color: rgb(194, 150, 255);
+}
+
+body.dark .portfolio-card {
+  background: darkgrey;
+}
+
+body.dark .portfolio-card h3 {
+  color: white;
+}
+
+body.dark .portfolio-card p {
+  color: white;
+}
+
+body.dark .contact h2 {
+  color: white;
+}
+
+body.dark .contact-form label {
+  color: white;
+}
+
+body.dark .Publication {
+  color: white;
+}
+.skip-link {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  background: rgba(46, 46, 46, 0.9);
+  color: white;
+
+  text-decoration: none;
+}

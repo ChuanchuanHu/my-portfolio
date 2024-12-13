@@ -1,0 +1,14 @@
+.theme-switcher {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+
+  width: 5rem;
+  height: 4rem;
+
+  color: white;
+  border: 0.1rem solid rgba(158, 87, 255);
+  font-weight: bold;
+
+  transition: transform 0.5s;
+}
