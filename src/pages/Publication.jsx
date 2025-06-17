@@ -12,7 +12,6 @@ function Publication() {
         The Application of OpenStreetMap in Unmanned Driving System. Electronic
         Technology and Software Engineering 09(2021):47-48.
       </h4>
-      <img src="myarticle.png" alt="The screenshort of my article" />
     </div>
   );
 }
