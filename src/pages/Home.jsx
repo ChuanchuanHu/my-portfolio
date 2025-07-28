@@ -11,8 +11,7 @@ function HomePage() {
           </h1>
 
           <p className="home-subtitle">
-            Software Developer &#128433; | Hardware Engineer &#128421; | 3D
-            Printing &#128391; | ...
+            Software Developer &#128433; | Hardware Engineer &#128421; | Robotics &#128391; | ...
           </p>
 
           <p className="home-description">
