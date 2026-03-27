@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import "../styles/NavBar.css";
 import ThemeSwitcher from "../components/ThemeSwitcher";
-import HambugerMenu from "./HambugerMenu";
 
 function NavBar({ setCurrentPage }) {
   return (
@@ -60,7 +59,6 @@ function NavBar({ setCurrentPage }) {
       </ul>
 
       <div className="navbar-actions">
-        <HambugerMenu />
         <ThemeSwitcher />
       </div>
     </nav>
