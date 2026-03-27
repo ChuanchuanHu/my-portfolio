@@ -1,23 +1,23 @@
 .contact {
-  font-family: sans-serif;
-  max-width: 40rem;
-  color: black;
-  font-family: "Courier New", Courier, monospace;
+  max-width: 44rem;
+  color: var(--text);
 }
 
 .contact h2 {
   margin-top: 1rem;
-  color: rgb(194, 150, 255);
-  font-size: 2rem;
-  border-bottom: 2px solid rgb(194, 150, 255);
-  display: inline-block;
+  color: var(--text);
+  font-size: 1.4rem;
+}
+
+.contact p {
+  color: var(--text-muted);
 }
 
 .contact-form {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .contact-form div {
@@ -26,55 +26,43 @@
 }
 
 .contact-form label {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   font-weight: 600;
 }
 
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid gray;
-  border-radius: 4px;
-  padding: 0.5rem;
-  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.65rem 0.8rem;
+  font-size: 0.95rem;
 }
 
 .contact-form textarea {
-  min-height: 100px;
+  min-height: 110px;
 }
 
 .error {
-  color: red;
+  color: #dc2626;
 }
 
 .notification {
-  color: green;
+  color: #16a34a;
 }
 
 .contact-form button[type="submit"] {
-  background: rgb(194, 150, 255);
+  background: var(--primary);
   color: white;
-
-  padding: 0.75rem 1.5rem;
-  border: none;
-  font-size: 1rem;
-  border-radius: 0.1rem;
-  cursor: pointer;
-
-  transition: background 0.3s ease;
+  width: fit-content;
+  padding: 0.7rem 1.2rem;
 }
 
 .contact-form button[type="submit"]:hover {
-  background: rgb(194, 150, 255);
+  background: #5e4ff6;
 }
 
 .linkedin-icon img {
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   object-fit: cover;
-}
-
-@media screen and (max-width: 700px) {
-  .contact {
-    padding: 2rem 1rem;
-  }
 }
