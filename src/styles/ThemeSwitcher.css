@@ -1,14 +1,27 @@
 .theme-switcher {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  cursor: pointer;
+  margin: 0;
+  padding: 0.45rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
 
-  width: 5rem;
-  height: 4rem;
+.theme-switcher img {
+  width: 1.1rem;
+  height: 1.1rem;
+  filter: none;
+}
 
-  color: white;
-  border: 0.1rem solid rgba(158, 87, 255);
-  font-weight: bold;
+body.dark .theme-switcher img {
+  filter: brightness(0) invert(1);
+}
 
-  transition: transform 0.5s;
+.theme-switcher:hover {
+  background: var(--surface-muted);
 }
