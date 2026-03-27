@@ -15,11 +15,6 @@
 .theme-switcher img {
   width: 1.1rem;
   height: 1.1rem;
-  filter: none;
-}
-
-body.dark .theme-switcher img {
-  filter: brightness(0) invert(1);
 }
 
 .theme-switcher:hover {
