@@ -2,61 +2,69 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 70vh;
-  padding: 2rem;
-  box-sizing: border-box;
-  font-family: "Courier New", Courier, monospace;
+  min-height: 68vh;
+  padding: 1.5rem 0;
 }
 
 .home-content {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  max-width: 1200px;
+  justify-content: space-between;
   width: 100%;
-
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .home-heading {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin-bottom: 0.6rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.home-heading p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
 }
 
 .home-subtitle {
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
-  color: rgba(158, 87, 255);
+  font-size: 1.05rem;
+  margin-bottom: 0.9rem;
+  color: var(--primary);
 }
 
 .home-description {
-  font-size: 1.3rem;
-  line-height: 1.5;
-  margin-bottom: 2rem;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  max-width: 62ch;
 }
 
 .home-imageFrame {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex: 0 0 auto;
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 0.8rem;
 }
 
 .home-image {
-  width: 265px;
+  width: min(300px, 72vw);
   height: auto;
-  border-radius: 10%;
+  border-radius: 14px;
+  display: block;
 }
 
 .home-image:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .home-content {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .home-text {
@@ -65,6 +73,5 @@
 
   .home-imageFrame {
     order: 1;
-    margin-bottom: 2rem;
   }
 }
