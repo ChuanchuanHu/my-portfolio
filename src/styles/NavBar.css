@@ -52,13 +52,11 @@
 .navbar-icon {
   width: 1rem;
   height: 1rem;
-main
 }
 
 .navbar-actions {
   display: flex;
   align-items: center;
-main
 }
 
 @media screen and (max-width: 860px) {
